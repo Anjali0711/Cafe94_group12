@@ -47,6 +47,7 @@ public class Lab3
 		String wronglyFormed="public static void main(String[] args)}";
 		System.out.println(testBrackets(rightlyFormed));
 		System.out.println(testBrackets(wronglyFormed));
+		System.out.println("testing new branch");
 	}
 	
 	static public boolean testBrackets(String s)
